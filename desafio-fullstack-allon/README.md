@@ -1,16 +1,24 @@
-# React + Vite
+Este repositório contém a resolução do desafio técnico para a vaga de Desenvolvedor Fullstack. O projeto está dividido em duas partes principais: o desenvolvimento de uma Landing Page funcional em React e a estruturação de um Fluxo de Integração de dados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Como executar o projeto 
+1-Certifique-se de ter o Node.js instalado.
+2-Na raiz do projeto, instale as dependências:
+npm install
+npm run dev
 
-Currently, two official plugins are available:
+Acesse o link indicado no terminal 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tecnologias Utilizadas:
+Frontend: React.js, Vite, Hooks
+Integração: SQL (PostgreSQL), Draw.io para diagramação.
+Documentação: Markdown.
 
-## React Compiler
+Estrutura do Repositório:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+/src: Código fonte da aplicação React, incluindo a Landing Page e o Carrinho de Compras.
+/src/api: Dados mockados de produtos utilizados no sistema.
+/flow-documentation: Contém o diagrama visual do fluxo, a query SQL de extração e a documentação técnica dos nós de processamento.
+api-documentation.md: Detalhamento dos endpoints da API.
+database-schema.md: Descrição das tabelas e relacionamentos do banco de dados.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Desenvolvido por Tiago de Sá Leal Pires - 2026
