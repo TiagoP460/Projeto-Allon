@@ -13,10 +13,10 @@ function App() {
   return (
     <div style={{ fontFamily: 'sans-serif', margin: 0, padding: 0 }}>
       <header style={{ background: '#111', color: '#fff', padding: '50px 20px', textAlign: 'center' }}>
-        <h1 style={{ margin: 0 }}>Allon Software & Integração</h1>
+  <h1 style={{ margin: '0 0 20px 0' }}>Allon Software & Integração</h1>
 
-        <p>Soluções inteligentes para seus dados</p>
-      </header>
+  <p style={{ margin: 0 }}>Soluções inteligentes para seus dados</p>
+</header>
 
       <section style={{ padding: '40px 20px', display: 'flex', justifyContent: 'center', gap: '20px', background: '#f5f5f5' }}>
         <div style={{ background: '#fff', padding: '20px', borderRadius: '8px', width: '250px', boxShadow: '0 2px 5px rgba(0,0,0,0.1)' }}>
